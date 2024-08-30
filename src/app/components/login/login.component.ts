@@ -19,8 +19,7 @@ export class LoginComponent implements OnInit {
     email: new FormControl(null, [Validators.required, Validators.email]),
     password: new FormControl(null, [
       Validators.required,
-      Validators.pattern(/^(?=.*[a-zA-Z])(?=.*\d)[a-zA-Z\d]{8,20}$/
-      ),
+      Validators.required,
       
     ]),
   });
