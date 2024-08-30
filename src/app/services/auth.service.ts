@@ -13,7 +13,7 @@ export class AuthService {
   }
 
   userData: BehaviorSubject<any> = new BehaviorSubject(null);
-  baseUrl: String = `https://route-ecommerce.onrender.com/api/v1/auth/`;
+  baseUrl: String = `https://ecommerce.routemisr.com/api/v1/auth/`;
   
   encodeToken!: string | null;
 
